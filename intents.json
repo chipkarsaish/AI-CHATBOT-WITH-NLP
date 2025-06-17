@@ -1,0 +1,304 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Greetings", "Is anyone there?", "What's up?", "Howdy", "Hi there"],
+      "responses": ["Hello! How can I help you today?", "Hi there, what banking service do you need?", "Greetings! How may I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "Farewell", "Talk to you soon", "Bye for now", "I have to go", "See ya", "Later"],
+      "responses": ["Goodbye! Have a great day!", "See you soon. Let us know if you need anything else!", "Take care. We’re here whenever you need help."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thanks so much", "Much appreciated", "Thanks for the help", "Thank you very much", "Cheers", "Thankful"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime. Let me know if you have more questions."]
+    },
+    {
+      "tag": "account_opening",
+      "patterns": ["How to open an account?", "I want to open a bank account", "Open savings account", "Account opening procedure", "New account setup", "Start a new account", "What’s the process to open an account?", "Open bank account", "Create new account", "How can I open a new account?"],
+      "responses": ["You can open a new account by visiting our nearest branch with valid ID and address proof. Online application is also available on our website."]
+    },
+    {
+      "tag": "check_balance",
+      "patterns": ["What is my account balance?", "Check balance", "Account balance inquiry", "How much money do I have?", "Balance check please", "Show me my balance", "Bank balance status", "Get my account balance", "Balance information", "Balance amount"],
+      "responses": ["You can check your balance through mobile banking, internet banking, or by visiting an ATM."]
+    },
+    {
+      "tag": "ifsc_code",
+      "patterns": ["What is the IFSC code?", "Find branch IFSC code", "Need IFSC code", "IFSC code for transfer", "What’s my branch IFSC?", "Get IFSC details", "Provide IFSC", "Bank IFSC please", "IFSC of bank", "IFSC info"],
+      "responses": ["Please share your branch location or name to get the IFSC code."]
+    },
+    {
+      "tag": "lost_card",
+      "patterns": ["I lost my card", "Report lost debit card", "Block my credit card", "Stolen card", "Card missing", "Card lost help", "Need to block card", "Freeze my card", "Report card issue", "Lost my bank card"],
+      "responses": ["Please contact our 24/7 helpline immediately to block the card or use the mobile app/internet banking for the same."]
+    },
+    {
+      "tag": "loan_application",
+      "patterns": ["I want a loan", "Apply for personal loan", "Loan application process", "Get a home loan", "Need car loan", "Apply for loan online", "Loan options available", "Start loan request", "Bank loan apply", "Loan process"],
+      "responses": ["You can apply for loans through our website or by visiting a nearby branch. Our representative will assist you with documentation."]
+    },
+    {
+      "tag": "minimum_balance",
+      "patterns": ["Minimum balance requirement", "What’s the minimum balance?", "How much balance should I maintain?", "Low balance penalty", "Minimum balance in account", "Required minimum amount", "Bank balance rule", "Account minimum limit", "Maintain balance info", "Savings account limit"],
+      "responses": ["The minimum balance depends on the account type. For savings accounts, it’s usually ₹5000. Please check our website for details."]
+    },
+    {
+      "tag": "atm_locations",
+      "patterns": ["ATM near me", "Locate ATM", "Find nearby ATM", "ATM locator", "ATM available nearby", "ATM close to me", "Where is ATM?", "Get ATM address", "Bank ATM map", "ATM around"],
+      "responses": ["Please enable GPS and search for ATMs using our mobile app or visit our ATM locator page on the website."]
+    },
+    {
+      "tag": "net_banking_registration",
+      "patterns": ["Register for net banking", "How to get internet banking?", "Netbanking setup", "Create internet banking account", "Sign up for netbanking", "Activate online banking", "Net banking login creation", "Get online banking access", "Internet banking help", "Enable net banking"],
+      "responses": ["To register for internet banking, visit our website and click on ‘New User Registration’. You’ll need your account number and registered mobile number."]
+    },
+    {
+      "tag": "change_pin",
+      "patterns": ["Change my ATM PIN", "How to change debit card PIN?", "Update PIN", "Reset ATM PIN", "Modify card PIN", "PIN change request", "Change security code", "Alter my card PIN", "PIN reset guide", "Change PIN online"],
+      "responses": ["You can change your ATM PIN at any ATM machine, through mobile banking or internet banking under card services."]
+    },
+    {
+      "tag": "check_cheque_status",
+      "patterns": ["Check my cheque status", "Is my cheque cleared?", "Cheque clearance update", "Has the cheque been processed?", "Cheque status inquiry", "Track my cheque", "Cheque status check", "Where is my cheque?", "Check cheque processing", "Status of cheque"],
+      "responses": ["Cheque status can be checked through mobile or internet banking in the cheque services section."]
+    },
+    {
+      "tag": "account_statement",
+      "patterns": ["Get my account statement", "Download bank statement", "Monthly statement request", "Bank account transactions", "Statement for my account", "Request e-statement", "Send me my statement", "Bank statement PDF", "Account summary", "Recent transactions"],
+      "responses": ["Account statements can be downloaded from internet banking or requested from your branch."]
+    },
+    {
+      "tag": "update_mobile_number",
+      "patterns": ["Change my mobile number", "Update contact number", "Modify phone number", "Phone number change request", "New mobile for bank", "Edit mobile info", "Update my contact details", "Mobile number update", "Change registered mobile", "New number for my account"],
+      "responses": ["To update your mobile number, visit the nearest branch with valid ID proof or use mobile banking if enabled."]
+    },
+    {
+      "tag": "block_cheque",
+      "patterns": ["Block my cheque", "Cancel cheque issued", "Stop cheque payment", "Request to block cheque", "Halt cheque transaction", "Cancel check issued", "Stop bank cheque", "Cheque cancellation request", "I issued a wrong cheque", "Cheque stop payment"],
+      "responses": ["You can request to block a cheque via internet banking under cheque services or by visiting the branch."]
+    },
+    {
+      "tag": "credit_card_application",
+      "patterns": ["Apply for credit card", "I want a credit card", "Credit card request", "Credit card online apply", "How to get a credit card?", "Request new credit card", "Card application process", "New credit card form", "Get bank credit card", "Start credit card application"],
+      "responses": ["You can apply for a credit card online through our website or by visiting your nearest branch with valid documents."]
+    },
+    {
+      "tag": "emi_calculator",
+      "patterns": ["EMI calculator", "How much EMI will I pay?", "Loan EMI calculation", "EMI details", "Monthly installment info", "Estimate my EMI", "Calculate EMI for loan", "EMI on home loan", "Loan repayment calculator", "EMI help"],
+      "responses": ["Use our EMI calculator tool on the website to estimate monthly payments for your loan amount and tenure."]
+    },
+    {
+      "tag": "change_nominee",
+      "patterns": ["Change account nominee", "Update nominee details", "Nominee update request", "Modify nominee name", "New nominee for account", "Nominee change process", "Add nominee", "Edit nominee details", "Nominee replacement", "Nominee update online"],
+      "responses": ["You can change your nominee by visiting the nearest branch and submitting a nominee update form with valid ID proof."]
+    },
+    {
+      "tag": "account_closure",
+      "patterns": ["Close my bank account", "How to close account?", "Account closure form", "Delete my account", "Terminate account", "Shutdown account", "Close savings account", "Bank account closing request", "Remove my bank account", "Close my account permanently"],
+      "responses": ["To close your account, please visit the nearest branch with your ID and submit an account closure request form."]
+    },
+    {
+      "tag": "auto_debit_setup",
+      "patterns": ["Set up auto debit", "Enable automatic payments", "Auto debit option", "Recurring payment setup", "How to start auto debit?", "Setup auto deduction", "Auto pay setup", "Activate auto debit", "Automatic bill pay", "Recurring debit"],
+      "responses": ["You can set up auto-debit via internet banking under the ‘Payments’ section or by submitting a form at the branch."]
+    },
+    {
+      "tag": "checkbook_request",
+      "patterns": ["Request new checkbook", "How to get checkbook?", "Order a checkbook", "Apply for checkbook", "Cheque book issue", "Need a new checkbook", "Send me a checkbook", "Checkbook application", "Request cheque book", "How to request a cheque book?"],
+      "responses": ["You can request a checkbook through net banking, mobile app, or by visiting your nearest branch."]
+    },
+    {
+      "tag": "account_freeze",
+      "patterns": ["Freeze my account", "Hold account activities", "Block account temporarily", "Account suspension", "Stop all transactions", "Put account on hold", "Temporarily disable account", "Freeze savings account", "Suspend my account", "Deactivate account"],
+      "responses": ["To freeze your account, contact customer support or visit the branch with valid ID proof."]
+    },
+    {
+      "tag": "card_limit_increase",
+      "patterns": ["Increase card limit", "Raise credit card limit", "More limit on debit card", "Upgrade card limit", "Enhance card usage", "Limit increase on credit card", "Card transaction limit change", "Modify card limit", "Need higher card limit", "Request limit hike"],
+      "responses": ["Card limit changes are subject to eligibility and income proof. Apply via mobile banking or contact support."]
+    },
+    {
+      "tag": "deposit_interest_rates",
+      "patterns": ["What are deposit interest rates?", "Fixed deposit rate", "Interest on savings account", "FD rate today", "RD interest rate", "Deposit return rates", "Bank interest info", "Deposit scheme rates", "Interest on term deposit", "Current interest rates"],
+      "responses": ["Interest rates vary by deposit type and tenure. Visit our website or contact the branch for current rates."]
+    },
+    {
+      "tag": "email_statement",
+      "patterns": ["Get bank statement on email", "Email my account statement", "Statement by email", "Receive e-statement", "Monthly statement on email", "Statement via email", "Account summary in email", "Send statement to email", "Get e-copy of statement", "How to get emailed statements?"],
+      "responses": ["You can register for e-statements through net banking or our mobile app under ‘Statement Preferences’."]
+    },
+    {
+      "tag": "change_address",
+      "patterns": ["Change my address", "Update residential address", "Modify contact address", "Edit address in account", "New address update", "Address change process", "Shifted house update", "Address update request", "Change branch address", "Update location in bank"],
+      "responses": ["To change your address, submit proof of new address via net banking or visit the nearest branch."]
+    },
+    {
+      "tag": "tax_certificate",
+      "patterns": ["Download tax certificate", "Form 16A for FD", "Interest tax statement", "Get TDS certificate", "Tax statement for savings", "Request form 26AS", "Annual interest certificate", "Proof of interest earned", "Download 16A certificate", "TDS deduction certificate"],
+      "responses": ["You can download your tax certificate from the e-statements section in net banking or request one from your branch."]
+    },
+    {
+      "tag": "bank_holidays",
+      "patterns": ["List of bank holidays", "Is bank open today?", "Holiday calendar", "Bank closed today?", "Holiday on weekend?", "Check bank holiday", "Bank schedule", "Is it a working day?", "Holiday notice", "Today bank open?"],
+      "responses": ["You can check upcoming bank holidays on our website or mobile app’s holiday calendar section."]
+    },
+    {
+      "tag": "forex_rates",
+      "patterns": ["What is today's forex rate?", "USD to INR rate", "Currency exchange rates", "Euro to rupees", "Forex value today", "Foreign exchange rate", "Current forex price", "INR vs dollar", "Exchange rate update", "Forex rate bank"],
+      "responses": ["Forex rates are updated daily and vary by amount and method. Please check our website or visit a forex-enabled branch."]
+    },
+    {
+      "tag": "cancel_cheque",
+      "patterns": ["How to cancel a cheque?", "Stop payment on cheque", "Cancel issued cheque", "Cheque cancellation", "I want to stop my cheque", "Cheque block request", "Stop my cheque", "Cancel bank cheque", "How to block a cheque?", "I need to cancel a cheque I issued"],
+      "responses": ["You can request a cheque cancellation through net banking under the cheque section or visit your nearest branch."]
+    },
+    {
+      "tag": "atm_withdrawal_limit",
+      "patterns": ["ATM withdrawal limit", "How much can I withdraw at once?", "Cash limit ATM", "Maximum cash from ATM", "ATM daily withdrawal cap", "ATM money limit", "Withdrawal restriction ATM", "Limit on ATM cash out", "ATM cash limit per day", "Daily ATM withdrawal max"],
+      "responses": ["ATM withdrawal limits vary by card type. Please check your card details in mobile or internet banking."]
+    },
+    {
+      "tag": "joint_account_opening",
+      "patterns": ["Open joint account", "Joint account requirements", "Documents for joint account", "How to open a joint bank account?", "Start joint account", "Joint savings account", "Can I open joint account?", "Joint account process", "Add person to account", "Shared bank account opening"],
+      "responses": ["To open a joint account, both applicants must be present with valid ID and address proof at any branch."]
+    },
+    {
+      "tag": "activate_international_usage",
+      "patterns": ["Activate international card usage", "Use debit card abroad", "Enable foreign transactions", "International card activation", "Travel card activation", "Use my card internationally", "Allow overseas usage", "Activate global access", "Card for foreign travel", "Can I use card abroad?"],
+      "responses": ["International usage can be activated via mobile/internet banking under the card settings section."]
+    },
+    {
+      "tag": "mobile_number_change",
+      "patterns": ["Change my mobile number", "Update phone number", "Modify registered mobile", "Mobile number update process", "New number registration", "Change contact number", "Change number in bank records", "Phone number change request", "Change SMS number", "Update mobile in account"],
+      "responses": ["You can update your mobile number via ATM, mobile banking, or by visiting your nearest branch with valid ID proof."]
+    },
+    {
+      "tag": "account_unfreeze",
+      "patterns": ["Unfreeze my account", "Reactivate frozen account", "Enable my account again", "My account is frozen", "Resume account activity", "Unblock my bank account", "Reopen suspended account", "Lift account hold", "Re-enable access", "Account reactivation"],
+      "responses": ["To unfreeze your account, please visit the nearest branch with a valid explanation and necessary documents."]
+    },
+    {
+      "tag": "transaction_charges",
+      "patterns": ["What are transaction charges?", "Charges on money transfer", "Service fees bank", "NEFT/IMPS charges", "Banking transaction cost", "Money transfer fee", "Transaction fee list", "Fees for sending money", "Online transfer charges", "Charges on bank payments"],
+      "responses": ["Transaction charges vary based on transfer type and mode. Please refer to our service charge sheet on the website."]
+    },
+    {
+      "tag": "nominee_update",
+      "patterns": ["Add nominee to account", "Update my nominee", "Change account nominee", "How to update nominee?", "Nomination update process", "Change nominee name", "Nominee registration", "Modify account nominee", "Nominee info update", "New nominee details"],
+      "responses": ["Nominee updates can be done by filling a form at the branch or via internet banking in the profile section."]
+    },
+    {
+      "tag": "safe_deposit_box",
+      "patterns": ["How to get a locker?", "Bank safe deposit box", "Apply for locker", "Rent a locker", "Locker facility available?", "Book locker in bank", "Secure deposit box", "Bank locker charges", "How to use safe deposit box?", "Locker registration"],
+      "responses": ["To avail a locker, visit your nearest branch with KYC documents. Locker availability is subject to location."]
+    },
+    {
+      "tag": "customer_id",
+      "patterns": ["What is customer ID?", "Find my customer ID", "Customer number", "Where to get customer ID?", "Locate my bank ID", "What’s my ID in bank?", "Retrieve customer ID", "How to know customer ID?", "Customer ID info", "Know my bank ID"],
+      "responses": ["Your customer ID is available in your passbook, account statement, or in the profile section of internet/mobile banking."]
+    },
+    {
+      "tag": "change_email_id",
+      "patterns": ["Change my email ID", "Update email address", "Modify registered email", "Change email in bank account", "New email for account", "Email ID update process", "Email change request", "Registered email update", "Change contact email", "Update email details"],
+      "responses": ["You can update your email ID via internet banking profile settings or by visiting your nearest branch with valid ID proof."]
+    },
+    {
+      "tag": "open_nri_account",
+      "patterns": ["How to open NRI account?", "NRI account process", "Open non-resident account", "Documents for NRI account", "Start NRI savings", "NRI account eligibility", "Apply for NRE/NRO", "NRI bank account setup", "NRI account in India", "Non-resident account open"],
+      "responses": ["To open an NRI account, submit a filled application along with KYC documents. You can also apply online via our NRI services portal."]
+    },
+    {
+      "tag": "card_replacement",
+      "patterns": ["Replace my debit card", "Lost card replacement", "New ATM card", "Get a new debit card", "Replace damaged card", "Card renewal", "ATM card lost", "Request duplicate card", "Reissue my card", "How to replace old card?"],
+      "responses": ["You can request a replacement card via mobile/internet banking or by visiting a nearby branch."]
+    },
+    {
+      "tag": "loan_foreclosure",
+      "patterns": ["Foreclose my loan", "Close loan early", "Pay loan in advance", "How to foreclose a loan?", "Loan foreclosure process", "Loan repayment early", "Complete loan payment", "Preclose loan", "Loan prepayment", "Loan closure in full"],
+      "responses": ["Foreclosure of a loan can be done by submitting a written request and repaying the remaining loan amount along with applicable charges."]
+    },
+    {
+      "tag": "account_balance_without_netbanking",
+      "patterns": ["Check balance without net banking", "Balance check without app", "Get account balance without logging in", "Offline balance inquiry", "Phone balance check", "SMS balance inquiry", "Missed call balance service", "Account balance by call", "How to check balance offline?", "Non-digital balance check"],
+      "responses": ["You can check your balance via missed call, SMS banking, or by visiting an ATM."]
+    },
+    {
+      "tag": "recurring_deposit_opening",
+      "patterns": ["Open RD account", "Start recurring deposit", "How to open RD?", "Recurring deposit form", "Monthly deposit plan", "Recurring savings", "Start RD in bank", "Open RD online", "Recurring deposit procedure", "Apply RD online"],
+      "responses": ["Recurring Deposits can be opened through net banking, mobile app or by submitting a form at the branch."]
+    },
+    {
+      "tag": "update_kyc",
+      "patterns": ["Update my KYC", "KYC update process", "Submit KYC documents", "How to update KYC?", "KYC update online", "Change KYC info", "Renew my KYC", "Upload new KYC", "Modify KYC details", "Reverify my KYC"],
+      "responses": ["KYC can be updated online or at your branch by submitting valid ID and address proof documents."]
+    },
+    {
+      "tag": "interest_certificate_request",
+      "patterns": ["Get interest certificate", "Interest proof statement", "Annual interest summary", "Download interest certificate", "Interest certificate for tax", "Request yearly interest report", "Statement of earned interest", "Interest income details", "Get loan interest statement", "Interest summary"],
+      "responses": ["Interest certificates are available in the ‘Statements’ section of internet banking or can be requested from your branch."]
+    },
+    {
+      "tag": "enable_sms_alerts",
+      "patterns": ["Activate SMS alerts", "Enable mobile transaction alerts", "Start SMS banking", "Get transaction alerts by SMS", "Setup SMS notifications", "SMS for account activity", "Enable text alerts", "Activate account SMS", "Transaction messages setup", "Alert me via SMS"],
+      "responses": ["SMS alerts can be enabled through internet banking or at the branch by updating your communication preferences."]
+    },
+    {
+      "tag": "disable_online_banking",
+      "patterns": ["Turn off online banking", "Disable net banking", "Close internet banking", "Block online access", "Stop using internet banking", "Deactivate online services", "How to disable online banking?", "Stop netbanking", "Remove internet access", "Suspend net banking"],
+      "responses": ["To disable internet banking, submit a request at the branch or contact customer support with verification."]
+    },
+    {
+      "tag": "loan_eligibility_check",
+      "patterns": ["Am I eligible for a loan?", "Check my loan eligibility", "Eligibility for personal loan", "Can I get a home loan?", "Loan qualification criteria", "Loan approval chances", "What are eligibility conditions?", "Eligibility check for bank loan", "Loan qualification check", "Loan eligibility help"],
+      "responses": ["Loan eligibility depends on your income, credit score, and other criteria. Use our loan eligibility calculator online or visit the branch."]
+    },
+    {
+      "tag": "fd_interest_rates",
+      "patterns": ["What is the interest on FD?", "FD interest rate details", "Current fixed deposit rate", "Rate of interest on fixed deposit", "Fixed deposit ROI", "Interest for FD account", "FD rates update", "Bank fixed deposit interest", "FD plan rates", "Interest earned on FD"],
+      "responses": ["Our fixed deposit interest rates vary by tenure and deposit amount. Visit our website for the latest FD rate chart."]
+    },
+    {
+      "tag": "cheque_book_request",
+      "patterns": ["Request cheque book", "How to get new cheque book?", "Order cheque book", "Apply for cheque book", "Cheque book request online", "Issue new chequebook", "Need cheque leaves", "Reorder cheques", "Get chequebook from bank", "Ask for cheque book"],
+      "responses": ["You can request a cheque book through mobile/internet banking or by submitting a request at your branch."]
+    },
+    {
+      "tag": "international_transfer",
+      "patterns": ["Send money abroad", "International bank transfer", "Transfer funds to foreign account", "Global money transfer", "Remit funds overseas", "How to do international transfer?", "Transfer money to USA", "Send cash internationally", "Wire money abroad", "International payment from India"],
+      "responses": ["International transfers can be made via SWIFT. Visit your branch or use our international remittance service online."]
+    },
+    {
+      "tag": "credit_card_statement",
+      "patterns": ["Get credit card statement", "View credit card bill", "Credit card monthly summary", "Download card statement", "Check my card usage", "Card transaction report", "Where to get credit bill?", "Card payment statement", "Monthly credit card report", "Credit charges overview"],
+      "responses": ["Credit card statements are available through mobile/internet banking. Navigate to the card section to view/download."]
+    },
+    {
+      "tag": "mobile_app_download",
+      "patterns": ["Download bank mobile app", "Bank app for Android", "Get iOS app for bank", "Install bank mobile application", "How to install bank app?", "App for bank access", "Use bank on mobile", "Bank mobile services app", "Where to find bank app?", "Official app of the bank"],
+      "responses": ["You can download our mobile app from the Google Play Store or Apple App Store by searching for our bank's name."]
+    },
+    {
+      "tag": "enable_upi",
+      "patterns": ["Activate UPI on my account", "Set up UPI", "Enable UPI services", "Use UPI with bank", "UPI registration process", "How to start UPI?", "UPI enablement guide", "UPI activation steps", "UPI setup help", "Register for UPI"],
+      "responses": ["To activate UPI, download any UPI-enabled app, register using your mobile number linked to your account, and create a UPI PIN."]
+    },
+    {
+      "tag": "atm_pin_generation",
+      "patterns": ["Generate ATM PIN", "Create new debit card PIN", "ATM PIN setup", "How to get card PIN?", "Activate ATM PIN", "Set PIN for new card", "ATM PIN generation steps", "PIN for ATM card", "Request ATM PIN", "Debit card PIN registration"],
+      "responses": ["ATM PIN can be generated via ATM, internet banking, or mobile app under the card services section."]
+    },
+    {
+      "tag": "update_address",
+      "patterns": ["Update my address", "Change registered address", "Address change request", "Modify address in bank", "New address update", "Change contact address", "Registered address update", "Bank account address change", "Change my home address", "Update address online"],
+      "responses": ["You can update your address by submitting proof of new address at your nearest branch or uploading it via internet banking."]
+    },
+    {
+      "tag": "e_statement_subscription",
+      "patterns": ["Subscribe to e-statements", "Get monthly e-statement", "Digital bank statement", "Enable email statements", "Paperless statement subscription", "Online bank statement", "Monthly statement by email", "Activate e-statement", "Statement on email", "Get e-statements"],
+      "responses": ["E-statements can be activated via internet banking under the statements or email preferences section."]
+    }
+  ]
+}
